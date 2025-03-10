@@ -17,10 +17,10 @@ LinqLab is a project designed to apply and experiment with LINQ (Language Integr
 - **LINQ**  
 
  
-##📝 Usage
+## 📝 Usage
 Explore different LINQ operations by running the examples in the /Examples folder. Modify and experiment with different queries to better understand LINQ.
 
-##📌 Contributing
+## 📌 Contributing
 Contributions are welcome! Feel free to submit pull requests with new LINQ examples or optimizations.
 
 
