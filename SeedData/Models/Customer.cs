@@ -9,6 +9,7 @@ namespace SeedData.Models
 {
     public class Customer : IComparable<Customer>
     {
+        [Key]
         public int id { get; set; }
         [Required]
         public string name { get; set; }
