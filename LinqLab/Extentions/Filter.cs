@@ -9,7 +9,7 @@ using System.Xml.Linq;
 namespace LinqLab.Extentions
 {
     public static class Filter
-    {
+    {//FILTER DATA
         public static List<Customer> getByName(this List<Customer> _list, string name)
         {
             List<Customer> ahmeds = new List<Customer>();
