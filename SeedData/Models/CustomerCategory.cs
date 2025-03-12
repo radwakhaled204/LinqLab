@@ -11,6 +11,7 @@ namespace SeedData.Models
     {
         [Key]
         public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
         public IEnumerable<Customer>? customer { get; set; }
     }
