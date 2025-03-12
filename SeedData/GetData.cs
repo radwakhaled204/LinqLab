@@ -4,6 +4,7 @@ namespace SeedData
 {
     public static class GetData
     {
+        //quary
 
         public static List<CustomerCategory> GetCategories()
         {
