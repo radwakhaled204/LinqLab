@@ -12,6 +12,7 @@ namespace SeedData.Models
         [Key]
         public int id { get; set; }
         [Required]
+        [MaxLength(20)]
         public string name { get; set; }
         public long telephone { get; set; }
         public int age { get; set; }
