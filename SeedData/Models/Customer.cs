@@ -19,7 +19,7 @@ namespace SeedData.Models
         public int categoryId { get; set; }
         public bool isActive { get; set; }
         public DateTime joinDate { get; set; }
-
+        //comerison
         public int CompareTo(Customer? other)
         {
             return this.age;
