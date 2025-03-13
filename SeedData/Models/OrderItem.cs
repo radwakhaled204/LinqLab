@@ -14,7 +14,7 @@ namespace SeedData.Models
         public int Id { get; set; }
         [ForeignKey(nameof(OrderItem.Id))]
         public int OrderId { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Please Enter the name")]
         public string ItemName { get; set; }
         public decimal Price { get; set; }
         public decimal Quntitiy { get; set; }
