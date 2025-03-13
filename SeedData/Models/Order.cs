@@ -12,6 +12,7 @@ namespace SeedData.Models
     {
         [Key]
         public int Id { get; set; }
+
         public decimal total { get; set; }
         public DateTime orderDate { get; set; }
         [ForeignKey(nameof(Order))]
