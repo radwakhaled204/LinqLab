@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,9 +13,11 @@ namespace SeedData.Models
         [Key]
         public int id { get; set; }
         [Required]
-        [MaxLength(20)]
+        [MaxLength(20) ]
         public string name { get; set; }
+        [Column("phone")]
         public long telephone { get; set; }
+      
         public int age { get; set; }
         public decimal spendAverage { get; set; }
         public int categoryId { get; set; }
