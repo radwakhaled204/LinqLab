@@ -11,7 +11,7 @@ namespace SeedData.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+        [Required(ErrorMessage ="Please Enter the name")]
         public string Name { get; set; }
         public IEnumerable<Customer>? customer { get; set; }
     }
