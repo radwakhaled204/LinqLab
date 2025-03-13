@@ -10,7 +10,7 @@ namespace SeedData.Models
 {
     public class CustomerDto
     {
-        [Required] 
+        [Required(ErrorMessage = "Please Enter the name")] 
         public string customerName { get; set; }
         [Column("Phone")]
         public long customerPhone { get; set; }
