@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MathNet.Numerics;
 
 namespace SeedData.Models
 {
@@ -12,7 +13,7 @@ namespace SeedData.Models
     {
         [Key]
         public int Id { get; set; }
-
+        
         public decimal total { get; set; }
         public DateTime orderDate { get; set; }
         [ForeignKey(nameof(Order))]
