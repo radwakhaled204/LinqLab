@@ -15,7 +15,7 @@ var cats = GetData.GetCategories(GetData.GetCustomers());
 //    }
 //}
 
-//SELECT METHOD
+
 var list = cats.SelectMany(c => c.customer);
 foreach (var c in list)
 {
