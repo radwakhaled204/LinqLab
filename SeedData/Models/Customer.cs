@@ -12,7 +12,7 @@ namespace SeedData.Models
     {
         [Key]
         public int id { get; set; }
-        [Required]
+        [Required(ErrorMessage ="Please Enter The Name")]
         [MaxLength(20) ]
         public string name { get; set; }
         [Column("phone")]
