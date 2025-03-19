@@ -15,7 +15,7 @@ namespace SeedData.Models
         public int Id { get; set; }
         
         public decimal total { get; set; }
-        [Required(ErrorMessage = "Enter The Date")]
+        [Required(ErrorMessage = "Please Enter The Date")]
         public DateTime orderDate { get; set; }
         [ForeignKey(nameof(Order))]
         public int customerId { get; set; }
