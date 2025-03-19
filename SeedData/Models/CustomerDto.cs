@@ -13,7 +13,7 @@ namespace SeedData.Models
         [Required(ErrorMessage = "Please Enter the name")] 
         public string customerName { get; set; }
         [Column("Phone")]
-        [Required(ErrorMessage = "Enter The Phone")]
+        [Required(ErrorMessage = "Please Enter The Phone")]
         public long customerPhone { get; set; }
     }
 }
