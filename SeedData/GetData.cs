@@ -56,7 +56,7 @@ namespace SeedData
             customers.Add(new Customer { id = 106, name = "Hadir Ayman mohamed", age = 18, isActive = true, joinDate = new DateTime(2022, 11, 8), categoryId = 1, spendAverage = 8110.9m, telephone = 14256363 });
             customers.Add(new Customer { id = 106, name = "Abdellrahman Ashraf", age = 18, isActive = true, joinDate = new DateTime(2022, 11, 8), categoryId = 1, spendAverage = 8110.9m, telephone = 14256363 });
             customers.Add(new Customer { id = 107, name = "Abdullrahman Ahmed", age = 31, isActive = false, joinDate = new DateTime(2022, 12, 24), categoryId = 1, spendAverage = 1900.0m, telephone = 259874689 });
-            customers.Add(new Customer { id = 107, name = "Ma", age = 31, isActive = false, joinDate = new DateTime(2022, 12, 24), categoryId = 1, spendAverage = 1900.0m, telephone = 259874689 });
+            customers.Add(new Customer { id = 107, name = "May", age = 31, isActive = false, joinDate = new DateTime(2022, 12, 24), categoryId = 1, spendAverage = 1900.0m, telephone = 259874689 });
             customers.Add(new Customer { id = 108, name = "Salim Mohamed", age = 3, isActive = true, joinDate = new DateTime(2023, 4, 8), categoryId = 2, spendAverage = 1800.4m, telephone = 123698789 });
             customers.Add(new Customer { id = 109, name = "Merna Hazem", age = 25, isActive = false, joinDate = new DateTime(2023, 10, 31), categoryId = 1, spendAverage = 1250.6m, telephone = 121111189 });
             customers.Add(new Customer { id = 110, name = "mona samir", age = 29, isActive = true, joinDate = new DateTime(2023, 8, 18), categoryId = 1, spendAverage = 1854.9m, telephone = 122222289 });
