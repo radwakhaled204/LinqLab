@@ -10,12 +10,11 @@ namespace SeedData.Models
 {
     public class Customer : IComparable<Customer>
     {
-        [Key]
+      
         public int id { get; set; }
-        [Required(ErrorMessage ="Please Enter The Name")]
-        [MaxLength(20) ]
+      
         public string name { get; set; }
-        [Column("phone")]
+     
         public long telephone { get; set; }
       
         public int age { get; set; }
